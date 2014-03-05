@@ -1,6 +1,6 @@
 # VERISON 0.99.0
 
-FROM ubuntu:latest
+FROM jmmills/plenv-base
 MAINTAINER = Jason M. Mills <jmmills@cpan.org>
 
 ENV PATH $PATH:/usr/share/plenv/bin
