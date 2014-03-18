@@ -16,7 +16,7 @@ Want to spin up a known-to-work image for devs on a project (for Dist::Zilla)?
 
 ```
 $ docker pull jmmills/plenv:latest
-$ CONTAINER_ID=$( docker run -d -i -t /bin/bash -l ) && docker attach $CONTAINER_ID
+$ CONTAINER_ID=$( docker run -d -i -t jmmills/plenv /bin/bash -l ) && docker attach $CONTAINER_ID
 
 root@92308d1f9ae2:/# cpanm Dist::Zilla
 # ...
