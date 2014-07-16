@@ -1,4 +1,4 @@
-# VERISON 0.99.0
+# Perl Version: 5.20.0
 
 FROM jmmills/plenv-base
 MAINTAINER = Jason M. Mills <jmmills@cpan.org>
