@@ -8,6 +8,6 @@ RUN plenv global $(plenv latest_version)
 # clean build directory to reduce size
 RUN rm -rfv /.plenv/build/* 
 
-RUN plenv install-cpanm
+ONBUILD RUN plenv install-cpanm
 
 CMD ["/bin/bash", "-l"]
